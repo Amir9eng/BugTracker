@@ -112,7 +112,9 @@ const styles = StyleSheet.create({
     marginVertical: 4,
   },
   bugOption: {
-    textDecoration: 'underline',
+    textDecorationLine: "underline",
+    textDecorationStyle: "solid",
+    textDecorationColor: "#000",
     paddingBottom: 10,
     fontSize: 18
   },
