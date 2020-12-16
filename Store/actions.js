@@ -2,7 +2,7 @@ export const addBug = (id, description) => ({
     type: 'ADD_BUG',
     payload: {
         id,
-        description
+        description 
     }
 
 })
